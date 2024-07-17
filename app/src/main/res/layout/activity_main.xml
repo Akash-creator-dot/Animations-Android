@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="AKASH"
+            android:id="@+id/textviwe"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+            <GridLayout
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:columnCount="2">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:height="80dp"
+                    android:width="120dp"
+                    android:text="ALPHA"
+                    android:id="@+id/btnAlpha"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginBottom="30dp"
+
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:height="80dp"
+                    android:width="120dp"
+                    android:id="@+id/btnScale"
+                    android:text="SCALE"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:height="80dp"
+                    android:width="120dp"
+                    android:id="@+id/btnRotate"
+                    android:text="ROTATE"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    />
+                <androidx.appcompat.widget.AppCompatButton
+                    android:height="80dp"
+                    android:width="120dp"
+                    android:id="@+id/btnTranslate"
+                    android:text="TRANSLATE"
+                    android:textSize="17sp"
+                    android:textStyle="bold"
+                    />
+
+            </GridLayout>
+    </RelativeLayout>=
+
+
+
+</LinearLayout>
